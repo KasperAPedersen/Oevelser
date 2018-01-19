@@ -45,4 +45,7 @@ switch(laeskedrik1){
     case "faxe kondi":
         console.log("Faxe kondi er sødt");
         break;
+    default:
+        console.log("default er sødt");
+        break;
 }
