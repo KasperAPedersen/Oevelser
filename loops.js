@@ -1,6 +1,6 @@
 console.log("---- 2 ----");
 for(let x = 1; x <= 25; x++){
-    console.log(x)
+    console.log(x);
 }
 
 console.log("---- 3 ----");
@@ -10,7 +10,7 @@ do{
 }while(y < 5);
 
 console.log("---- 4 ----");
-for(let z = 2017; z <= 1917; z--) {
+for(let z = 2017; z >= 1917; z--) {
     console.log(z);
 }
 
