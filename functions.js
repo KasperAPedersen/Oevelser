@@ -23,7 +23,7 @@ multiply1(3, "e");
 console.log("\n---- 3 ----");
 function multiply2(x, y) {
     let result = x * y;
-    if(x == undefined || y == undefined) {
+    if((isNaN(x) || isNaN(y)) && (x == undefined || y == undefined)) {
         console.log("Mangler input");
     } else {
         console.log(x + " * " + y + " er lig med " + result);
